@@ -24,6 +24,7 @@
 		2129ECFD1BA038C7001EF50A /* Midis in Resources */ = {isa = PBXBuildFile; fileRef = 2129ECFA1BA038C7001EF50A /* Midis */; };
 		2129ECFE1BA038C7001EF50A /* Presets in Resources */ = {isa = PBXBuildFile; fileRef = 2129ECFB1BA038C7001EF50A /* Presets */; };
 		2129ECFF1BA038C7001EF50A /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 2129ECFC1BA038C7001EF50A /* Sounds */; };
+		9DCE18622420B73100E109EE /* libTheAmazingAudioEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DCE18552420B73100E109EE /* libTheAmazingAudioEngine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,24 @@
 		2129ECFA1BA038C7001EF50A /* Midis */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Midis; sourceTree = SOURCE_ROOT; };
 		2129ECFB1BA038C7001EF50A /* Presets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presets; sourceTree = SOURCE_ROOT; };
 		2129ECFC1BA038C7001EF50A /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = SOURCE_ROOT; };
+		9DCE18502420B73100E109EE /* AEAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioFilePlayer.h; sourceTree = "<group>"; };
+		9DCE18512420B73100E109EE /* AEAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioController.h; sourceTree = "<group>"; };
+		9DCE18522420B73100E109EE /* AEBlockFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBlockFilter.h; sourceTree = "<group>"; };
+		9DCE18532420B73100E109EE /* TheAmazingAudioEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheAmazingAudioEngine.h; sourceTree = "<group>"; };
+		9DCE18542420B73100E109EE /* AEAudioController+Audiobus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AEAudioController+Audiobus.h"; sourceTree = "<group>"; };
+		9DCE18552420B73100E109EE /* libTheAmazingAudioEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTheAmazingAudioEngine.a; sourceTree = "<group>"; };
+		9DCE18562420B73100E109EE /* AEMemoryBufferPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMemoryBufferPlayer.h; sourceTree = "<group>"; };
+		9DCE18572420B73100E109EE /* AEBlockChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBlockChannel.h; sourceTree = "<group>"; };
+		9DCE18582420B73100E109EE /* AEAudioFileLoaderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioFileLoaderOperation.h; sourceTree = "<group>"; };
+		9DCE18592420B73100E109EE /* AEFloatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEFloatConverter.h; sourceTree = "<group>"; };
+		9DCE185A2420B73100E109EE /* AEMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEMessageQueue.h; sourceTree = "<group>"; };
+		9DCE185B2420B73100E109EE /* AEBlockScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBlockScheduler.h; sourceTree = "<group>"; };
+		9DCE185C2420B73100E109EE /* AEAudioFileWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioFileWriter.h; sourceTree = "<group>"; };
+		9DCE185D2420B73100E109EE /* AEAudioBufferManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioBufferManager.h; sourceTree = "<group>"; };
+		9DCE185E2420B73100E109EE /* AEAudioUnitFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioUnitFilter.h; sourceTree = "<group>"; };
+		9DCE185F2420B73100E109EE /* AEUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEUtilities.h; sourceTree = "<group>"; };
+		9DCE18602420B73100E109EE /* AEAudioUnitChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEAudioUnitChannel.h; sourceTree = "<group>"; };
+		9DCE18612420B73100E109EE /* AEBlockAudioReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEBlockAudioReceiver.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +104,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2129ECF91BA03837001EF50A /* libTheAmazingAudioEngine.a in Frameworks */,
+				9DCE18622420B73100E109EE /* libTheAmazingAudioEngine.a in Frameworks */,
 				2129ECE41BA03646001EF50A /* Accelerate.framework in Frameworks */,
 				2129ECE21BA03640001EF50A /* AVFoundation.framework in Frameworks */,
 				2129ECE01BA03637001EF50A /* AudioToolbox.framework in Frameworks */,
@@ -105,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				2129ECF11BA03826001EF50A /* TheAmazingAudioEngine.xcodeproj */,
+				9DCE184F2420B73100E109EE /* TheAmazingAudioEngine */,
 				2129ECAF1BA035DF001EF50A /* TheUnbelievableSequencer */,
 				2129ECC91BA035DF001EF50A /* TheUnbelievableSequencerTests */,
 				2129ECAE1BA035DF001EF50A /* Products */,
@@ -181,6 +202,31 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9DCE184F2420B73100E109EE /* TheAmazingAudioEngine */ = {
+			isa = PBXGroup;
+			children = (
+				9DCE18502420B73100E109EE /* AEAudioFilePlayer.h */,
+				9DCE18512420B73100E109EE /* AEAudioController.h */,
+				9DCE18522420B73100E109EE /* AEBlockFilter.h */,
+				9DCE18532420B73100E109EE /* TheAmazingAudioEngine.h */,
+				9DCE18542420B73100E109EE /* AEAudioController+Audiobus.h */,
+				9DCE18552420B73100E109EE /* libTheAmazingAudioEngine.a */,
+				9DCE18562420B73100E109EE /* AEMemoryBufferPlayer.h */,
+				9DCE18572420B73100E109EE /* AEBlockChannel.h */,
+				9DCE18582420B73100E109EE /* AEAudioFileLoaderOperation.h */,
+				9DCE18592420B73100E109EE /* AEFloatConverter.h */,
+				9DCE185A2420B73100E109EE /* AEMessageQueue.h */,
+				9DCE185B2420B73100E109EE /* AEBlockScheduler.h */,
+				9DCE185C2420B73100E109EE /* AEAudioFileWriter.h */,
+				9DCE185D2420B73100E109EE /* AEAudioBufferManager.h */,
+				9DCE185E2420B73100E109EE /* AEAudioUnitFilter.h */,
+				9DCE185F2420B73100E109EE /* AEUtilities.h */,
+				9DCE18602420B73100E109EE /* AEAudioUnitChannel.h */,
+				9DCE18612420B73100E109EE /* AEBlockAudioReceiver.h */,
+			);
+			path = TheAmazingAudioEngine;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,6 +289,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -447,6 +494,10 @@
 				INFOPLIST_FILE = TheUnbelievableSequencer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheAmazingAudioEngine",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -463,6 +514,10 @@
 				INFOPLIST_FILE = TheUnbelievableSequencer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TheAmazingAudioEngine",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

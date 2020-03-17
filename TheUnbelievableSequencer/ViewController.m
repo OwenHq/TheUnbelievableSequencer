@@ -53,7 +53,7 @@
     
     // The sequencer is just like any other TAAE channel.
     _sequencer = [[AESequencerChannel alloc] initWithPatternResolution:0.25 withNumTracks:5];
-    [_audioController addChannels:@[_sequencer]];
+    [_audioController addChannels:@[_sequencer] completionBlock:nil];
     
     // Load a sound bank.
     NSURL *presetURL = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"Presets/SimpleDrums" ofType:@"aupreset"]];
